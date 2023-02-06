@@ -1,13 +1,7 @@
-const { User, Book } = require('../models');
+const { gql } = require('apollo-server-express');
 
-// TO DO: Redefine /routes routes using resolvers.
-const resolvers = {
-    Query: {
+const typeDefs = gql`
 
-    },
-    Mutation: {
+`;
 
-    },
-};
-
-module.exports = resolvers;
+module.exports = typeDefs;
