@@ -8,6 +8,10 @@ const typeDefs = gql`
         password: String
         savedBooks: [Book]
     }
+    type Auth {
+    token: ID!
+    profile: Profile
+    }
     type Query {
         users: [User]
         user(id: ID!): User
