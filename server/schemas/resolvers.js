@@ -1,6 +1,6 @@
 const { User } = require('../models');
 
-// TO DO: Redefine /routes routes using resolvers.
+// Redefine ../controllers/user-controller routes using resolvers.
 const resolvers = {
     Query: {
         user: async (parent, args) => {
